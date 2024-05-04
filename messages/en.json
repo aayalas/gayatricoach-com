@@ -1,0 +1,55 @@
+{
+  "Home": {
+    "pageTitle": "Gayatricoach.com Terapist | Gestalt | Constellations | Coach",
+    "pageDescipt": ".",
+    "title": "Home"
+  },
+  "Main": {
+    "pageTitle": "Gayaticoach.com",
+    "links": {
+      "services": {
+        "title": "Services",
+        "subtitle": "Heal your mind and soul with in-person and online therapy services.",
+        "button1": "Let's talk",
+        "button2": "FAQ's",
+        "tcard1": "Family therapy",
+        "pcard1": "Deep changes can be made in each family member as well as the family structure when the entire family participates in therapy. In order to encourage talks that create a pleasant environment and healthy interactions going ahead, I work with others to better understand the dynamics, patterns, and weaknesses of families.",
+        "tcard2": "Couples therapy",
+        "pcard2": "People in relationships seek counseling for various reasons, from power struggles and communication problems to cheating. We'll effectively deal with trust and physical issues, conflict, financial issues, and any other side effect impacting your relationship. We will work together to teach you how to regulate your emotions and use healthy communication skills to resolve past and current problems.",
+        "tcard3": "Individual therapy",
+        "pcard3": "Individual mental health therapy sessions (sometimes we also call it mental health counseling) are an essential opportunity to process through issues that tend to isolate us. Whether it is a mood disorder, addiction, relationship challenges, trauma, or some other issue keeping you from living your life in a fulfilled way, we will work together to get rid of it."
+      },
+      "about": {
+        "title": "About",
+        "subtitle": "Gabriela Ayala, Therapist, Coach",
+        "p": "Gestalt therapist, family constellator. I provide support for awareness, self-realization, personal development, restoration of balance and well-being."
+      },
+      "faqs": {
+        "title": "Frequently asked questions",
+        "subtitle": "",
+        "p": ""
+      }   
+    }
+  },
+  "Navigation": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "faqs": "FAQ's",
+    "letstalk": "Let's talk",
+    "blog": "Blog"
+  },
+  "News": {
+    "title": "Subscribe to our newsletter",
+    "button": "Subscribe",
+    "pholder": "Enter your email here...",
+    "p1": "We care about the protection of your data.",
+    "p2": "Read our Privacy Policy.",
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "faqs": "FAQ's",
+    "letstalk": "Let's talk",
+    "blog": "Blog"    
+  }    
+}
