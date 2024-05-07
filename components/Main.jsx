@@ -3,8 +3,11 @@ import { Card, CardHeader, CardBody, CardFooter, Link } from "./nexui"
 import Image from 'next/image';
 import { IoLogoWhatsapp } from "react-icons/io";
 import CarouselContent from './carousel';
+import CarouselContent2 from './Testimonials';
 
 import {useTranslations} from 'next-intl';
+import { Faqs } from './Faqs';
+
 
 function Main() {
   const t = useTranslations('Main');
@@ -16,15 +19,15 @@ function Main() {
         <div className="px-1 mx-auto text-center py-1 lg:py-1">
           <div className="flex flex-col space-y-1 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
           {/*  CAROUCEL  */}
-            <div>
+           <div>
               <CarouselContent/>
-            </div>
+            </div> 
           </div>
         </div>
       </section>
       <section id="services" className="">
 				<div className="max-w-2xl mx-auto text-center py-16">						
-					<h2 className="text-3xl font-normal leading-tight tracking-tight text-gray-500 sm:text-4xl dark:text-gray-400">
+					<h2 className="text-3xl font-normal leading-tight tracking-tight text-gray-900 sm:text-4xl dark:text-white">
 							{t('links.services.title')}
 					</h2>
 					<p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">{t('links.services.subtitle')}</p>
@@ -95,6 +98,7 @@ function Main() {
 						<p className="mt-4 text-base font-normal text-gray-500 sm:text-xl dark:text-gray-400">
 							{t('links.faqs.subtitle')}
 						</p>
+						<Faqs />
 					</div>
 				</div>  
 	  </section>
@@ -102,21 +106,25 @@ function Main() {
 				<div className="max-w-screen-xl px-4 py-8 mx-auto lg:px-6 sm:py-16 lg:py-24">
 					<div className="max-w-2xl mx-auto text-center">
 						<h2 className="text-3xl font-normal leading-tight tracking-tight text-gray-900 sm:text-4xl dark:text-white">
-							{/* <FormattedMessage id="page.home.title.success"/> */}
+							{t('links.success.title')}
 						</h2>
 						<p className="mt-4 text-base font-normal text-gray-500 sm:text-xl dark:text-gray-400">
-							Let's resolve your issue, so it can inspire others by joining these success stories.
+							{t('links.success.subtitle')}
 						</p>
+          			{/*  TESTIMONIAL  */}
+					<div>
+						<CarouselContent2 />
+					</div> 
 					</div>
 				</div>   
 	  </section>
       <section id="letstalk" className="mb-8">
 				<div className="max-w-2xl mx-auto text-center py-16">
 					<h2 className="text-3xl font-normal leading-tight tracking-tight text-gray-900 sm:text-4xl dark:text-white">
-						{/* <FormattedMessage id="page.home.title.letstalk"/> */}
+						{t('links.letstalk.title')}
 					</h2>
 					<p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
-            Heal your mind and soul with in-person and online therapy services.
+                        {t('links.letstalk.subtitle')} 
           </p>
 				</div>
 				<div className="py-2 px-4 mx-auto max-w-screen-xl lg:py-2">

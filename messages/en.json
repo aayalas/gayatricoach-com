@@ -28,7 +28,17 @@
         "title": "Frequently asked questions",
         "subtitle": "",
         "p": ""
-      }   
+      },
+      "success": {
+        "title": "Success",
+        "subtitle": "Let's resolve your issue, so it can inspire others by joining these success stories.",
+        "p": ""
+      },
+      "letstalk": {
+        "title": "Let´s talk",
+        "subtitle": "",
+        "p": ""
+      }     
     }
   },
   "Navigation": {

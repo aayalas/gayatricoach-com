@@ -9,15 +9,15 @@
     "links": {
       "services": {
         "title": "Servicios",
-        "subtitle": "Heal your mind and soul with in-person and online therapy services.",
+        "subtitle": "Sana tu mente y tu alma con servicios de terapias presenciales y en línea.",
         "button1": "Hablemos",
         "button2": "Preguntas",
         "tcard1": "Terapia familiar",
-        "pcard1": "Deep changes can be made in each family member as well as the family structure when the entire family participates in therapy. In order to encourage talks that create a pleasant environment and healthy interactions going ahead, I work with others to better understand the dynamics, patterns, and weaknesses of families.",
+        "pcard1": "Se pueden lograr cambios profundos en cada miembro de la familia, así como en la estructura familiar, cuando toda la familia participa en la terapia. Para fomentar conversaciones que creen un ambiente agradable e interacciones saludables en el futuro, trabajo con otras personas para comprender mejor las dinámicas, los patrones y las debilidades de las familias.",
         "tcard2": "Terapia de parejas",
-        "pcard2": "People in relationships seek counseling for various reasons, from power struggles and communication problems to cheating. We'll effectively deal with trust and physical issues, conflict, financial issues, and any other side effect impacting your relationship. We will work together to teach you how to regulate your emotions and use healthy communication skills to resolve past and current problems.",
+        "pcard2": "Las personas en una relación buscan asesoramiento por diversas razones, desde luchas de poder y problemas de comunicación hasta trampas. Nos ocuparemos eficazmente de los problemas físicos y de confianza, los conflictos, los problemas financieros y cualquier otro efecto secundario que afecte su relación. Trabajaremos juntos para enseñarle cómo regular sus emociones y utilizar habilidades de comunicación saludables para resolver problemas pasados y actuales.",
         "tcard3": "Terapia individual",
-        "pcard3": "Individual mental health therapy sessions (sometimes we also call it mental health counseling) are an essential opportunity to process through issues that tend to isolate us. Whether it is a mood disorder, addiction, relationship challenges, trauma, or some other issue keeping you from living your life in a fulfilled way, we will work together to get rid of it."        
+        "pcard3": "Las sesiones individuales de terapia de salud mental (a veces también las llamamos asesoramiento sobre salud mental) son una oportunidad esencial para procesar problemas que tienden a aislarnos. Ya sea que se trate de un trastorno del estado de ánimo, una adicción, desafíos en las relaciones, un trauma o algún otro problema que le impida vivir su vida de manera plena, trabajaremos juntos para deshacernos de ello."        
       },
       "about": {
         "title": "Conóceme",
@@ -28,8 +28,17 @@
         "title": "Preguntas frecuentes",
         "subtitle": "",
         "p": ""
-      }
-  
+      },
+      "success": {
+        "title": "Éxito",
+        "subtitle": "Resolvamos su problema para que pueda inspirar a otros uniéndose a estas historias de éxito.",
+        "p": ""
+      },
+      "letstalk": {
+        "title": "Hablemos",
+        "subtitle": "",
+        "p": ""
+      }             
     }
   },
   "Navigation": {
