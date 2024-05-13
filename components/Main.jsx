@@ -39,7 +39,7 @@ function Main() {
 					</a> 
 				</div>
 				<div className="py-4 px-2 mx-auto max-w-screen-xl lg:py-4">
-					<div className="grid md:grid-cols-3 gap-8">
+					<div className="grid md:grid-cols-2 gap-8">
 						<div className="bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg p-4 md:p-12 shadow-lg">
 							<h2 className="text-gray-900 dark:text-white text-3xl font-normal mb-2">
                 {t('links.services.tcard1')}
@@ -56,14 +56,14 @@ function Main() {
 								{t('links.services.pcard2')}
 							</p>
 						</div>
-						<div className="bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg p-6 md:p-12 shadow-lg">
+						{/* <div className="bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg p-6 md:p-12 shadow-lg">
 							<h2 className="text-gray-900 dark:text-white text-3xl font-normal mb-2">
                 {t('links.services.tcard3')}
 							</h2>
 							<p className="text-lg font-normal text-gray-500 dark:text-gray-400 mb-4">
 								{t('links.services.pcard3')}
 							</p>
-						</div>
+						</div> */}
 					</div>
 				</div>
 	  </section>
