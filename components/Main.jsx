@@ -7,6 +7,7 @@ import CarouselContent2 from './Testimonials';
 
 import {useTranslations} from 'next-intl';
 import { Faqs } from './Faqs';
+import InLineWidgetCall from './InLineWidgetCall';
 
 
 function Main() {
@@ -108,7 +109,7 @@ function Main() {
 						<h2 className="text-3xl font-normal leading-tight tracking-tight text-gray-900 sm:text-4xl dark:text-white">
 							{t('links.success.title')}
 						</h2>
-						<p className="mt-4 text-base font-normal text-gray-500 sm:text-xl dark:text-gray-400">
+						<p className="mt-4 mb-8 text-base font-normal text-gray-500 sm:text-xl dark:text-gray-400">
 							{t('links.success.subtitle')}
 						</p>
           			{/*  TESTIMONIAL  */}
@@ -119,16 +120,29 @@ function Main() {
 				</div>   
 	  </section>
       <section id="letstalk" className="mb-8">
-				<div className="max-w-2xl mx-auto text-center py-16">
+				<div className="max-w-2xl mx-auto text-center">
 					<h2 className="text-3xl font-normal leading-tight tracking-tight text-gray-900 sm:text-4xl dark:text-white">
 						{t('links.letstalk.title')}
 					</h2>
-					<p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
+					<p className="max-w-2xl mt-4 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
                         {t('links.letstalk.subtitle')} 
           </p>
 				</div>
-				<div className="py-2 px-4 mx-auto max-w-screen-xl lg:py-2">
-					<div className="grid md:grid-cols-2 gap-8">
+				<div className="py-2 px-4 mx-auto max-w-screen-xl">
+					<div className="grid md:grid-cols-1 gap-8">
+						<InLineWidgetCall />
+						{/* <Card className="bg-gray-50 dark:bg-white text-center items-center border-gray-200 dark:border-gray-700 rounded-lg p-8 md:p-12 shadow-lg">
+						<div className="w-full justify-between sm:w-auto mb-4 sm:mb-0">
+							<ul className="flex flex-wrap justify-center sm:justify-start">
+								<li className="mr-3"><Link className='text-xl font-normal leading-tight tracking-tight text-gray-900 sm:text-4xl dark:text-gray-900' href="tel:+19548604423">
+									<IoLogoWhatsapp className="text-cyan-700"/>&nbsp; + 1 (954) 800-4423</Link>
+								</li>            
+							</ul>
+						</div> */}
+						{/* style={{ color: "green", fontSize: 25 }} */}
+						{/* </Card>                 */}
+					</div>
+					<div className="grid md:grid-cols-2 pt-8 gap-8">
 						<Card className="bg-gray-50 dark:bg-white text-center text-2xl border border-gray-200 dark:border-gray-700 rounded-lg p-8 md:p-12 shadow-lg">
 							<CardHeader>
 								<span className='text-black'>@terapeutagaya</span>

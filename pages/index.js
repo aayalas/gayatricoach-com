@@ -5,8 +5,17 @@ import Head from "next/head";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import Main from "@/components/Main";
+import { siteConfig } from '@/config/site';
 
 const inter = Inter({ subsets: ["latin"] });
+
+export const Metadata = {
+  title: {
+    default: siteConfig.name,
+    template: `%s | ${siteConfig.name}`
+  },
+  description: siteConfig.description,
+}
 
 export default function Home({title}) {
   const t = useTranslations('Home');

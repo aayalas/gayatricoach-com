@@ -36,7 +36,7 @@
       },
       "letstalk": {
         "title": "Let´s talk",
-        "subtitle": "",
+        "subtitle": "You may schedule an appoitment, get in touch through social media or whatsapp.",
         "p": ""
       }     
     }
@@ -50,6 +50,7 @@
     "blog": "Blog"
   },
   "News": {
+    "follow": "Follow me on...",
     "title": "Subscribe to our newsletter",
     "button": "Subscribe",
     "pholder": "Enter your email here...",
@@ -60,6 +61,18 @@
     "about": "About",
     "faqs": "FAQ's",
     "letstalk": "Let's talk",
-    "blog": "Blog"    
+    "blog": "Blog",
+    "success": "Testimonials",
+    "terms": "Terms",
+    "policies": "Policies",
+    "therapy": "Therapy",
+    "gestalt": "Gestalt",
+    "constela": "Constellations",
+    "coaching": "Coaching",
+    "WBB": "Women Braking Barriers"    
+  },
+  "Testi": {
+    "t1": "I want to share with you that psoriasis has improved by 90%, thank you again and a thousand thanks for your love, being available and willing to represent the One who sends you to heal and liberate.",
+    "t2": "I am a witness to what you write in the constellation that you made for me, it was healing and liberating to honor my ancestors, accept them, give them their place and let them go, the great influence and impact that they have on my life."
   }    
 }

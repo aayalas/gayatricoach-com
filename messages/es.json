@@ -36,7 +36,7 @@
       },
       "letstalk": {
         "title": "Hablemos",
-        "subtitle": "",
+        "subtitle": "You may schedule an appoitment, get in touch through social media or whatsapp.",
         "p": ""
       }             
     }
@@ -50,6 +50,7 @@
     "blog": "Blog"
   },
   "News": {
+    "follow": "Sígueme en...",
     "title": "Suscríbete a nuestro boletín",
     "button": "Suscríbete",
     "pholder": "Escriba su email aquí...",    
@@ -60,6 +61,18 @@
     "about": "Conóceme",
     "faqs": "Preguntas",
     "letstalk": "Hablemos",
-    "blog": "Blog"    
-  }  
+    "blog": "Blog",
+    "success": "Testimonios",
+    "terms": "Términos",
+    "policies": "Políticas",
+    "therapy": "Terapia",
+    "gestalt": "Gestalt",
+    "constela": "Constelaciones",
+    "coaching": "Coaching",
+    "WBB": "Mujeres que Rompen Barreras"        
+  },
+  "Testi": {
+    "t1": "Quiero compartir contigo que la psoriasis ha mejorado en un 90%, nuevamente gracias y mil gracias por tu amor, estar disponible y dispuesta para representar Aquel que te envía a sanar y liberar.",
+    "t2": "Soy testigo de esto que escribes en la constelación que me realizaste, fue sanador y liberador honrar a mis ansestros, aceptarlos darles su lugar y soltarlos, la gran influencia y repercusión que tienen ellos en mi vida."
+  }      
 }
