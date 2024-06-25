@@ -42,7 +42,8 @@ function CarouselContent2() {
               <p className='text-grey-900 dark:text-white'>
                 "{t('t1')}"
               </p>
-              </Typography>              <Typography
+              </Typography>              
+              <Typography
                 variant="h1"
                 color="black"
                 className="text-md md:text-sm lg:text-sm dark:text-white"

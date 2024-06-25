@@ -2,12 +2,20 @@ import React from 'react'
 import { Card, CardHeader, CardBody, CardFooter, Link } from "./nexui"
 import Image from 'next/image';
 import { IoLogoWhatsapp } from "react-icons/io";
-import CarouselContent from './carousel';
+import CarouselContent from '@/components/carousel';
 import CarouselContent2 from './Testimonials';
 
 import {useTranslations} from 'next-intl';
 import { Faqs } from './Faqs';
 import InLineWidgetCall from './InLineWidgetCall';
+import { Slider } from './slider';
+import { SliderDos } from './sliderdos';
+import {
+	NextButton,
+	PrevButton,
+	usePrevNextButtons
+  } from './EmblaCarouselArrowButtons'
+  import { DotButton, useDotButton } from './EmblaCarouselDotButton'
 
 
 function Main() {
@@ -21,7 +29,8 @@ function Main() {
           <div className="flex flex-col space-y-1 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
           {/*  CAROUCEL  */}
            <div>
-              <CarouselContent/>
+			  <SliderDos />
+              {/* <CarouselContent/> */}
             </div> 
           </div>
         </div>
@@ -114,7 +123,8 @@ function Main() {
 						</p>
           			{/*  TESTIMONIAL  */}
 					<div>
-						<CarouselContent2 />
+						<Slider />
+						{/* <CarouselContent2 /> */}
 					</div> 
 					</div>
 				</div>   

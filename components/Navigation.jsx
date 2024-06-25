@@ -35,7 +35,7 @@ function Navigation() {
                   src="/flower.svg"
                   width={40} 
                   height={50}
-                            /> 
+                /> 
               </div>
             </NextLink>
           </NavbarBrand>

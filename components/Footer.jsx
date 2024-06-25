@@ -102,16 +102,16 @@ function Footer() {
                     {/* <h4 className="text-white font-bold text-lg mb-6">Services</h4> */}
                         <ul className="space-y-4">
                             <li>
-                                <a href="#" className="hover:text-white text-gray-200 text-[15px]">{t('therapy')}</a>
+                                <a href="#faqs" className="hover:text-white text-gray-200 text-[15px]">{t('therapy')}</a>
                             </li>
                             <li>
-                                <a href="#" className="hover:text-white text-gray-200 text-[15px]">{t('gestalt')}</a>
+                                <a href="#faqs" className="hover:text-white text-gray-200 text-[15px]">{t('gestalt')}</a>
                             </li>
                             <li>
-                                <a href="#" className="hover:text-white text-gray-200 text-[15px]">{t('constela')}</a>
+                                <a href="#faqs" className="hover:text-white text-gray-200 text-[15px]">{t('constela')}</a>
                             </li>
                             <li>
-                                <a href="#" className="hover:text-white text-gray-200 text-[15px]">{t('coaching')}</a>
+                                <a href="#faqs" className="hover:text-white text-gray-200 text-[15px]">{t('coaching')}</a>
                             </li>
                         </ul>
                 </div>
@@ -162,7 +162,7 @@ function Footer() {
                             <a href="#" className="hover:text-white text-gray-200 text-[15px]">{t('terms')}</a>
                         </li>
                         <li>
-                            <a href="#" className="hover:text-white text-gray-200 text-[15px]">{t('policies')}</a>
+                            <a href="#" className="hover:text-white text-gray-200 text-[15px]">{t('policy')}</a>
                         </li>                        
                     </ul>
                 </div>
