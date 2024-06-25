@@ -10,12 +10,6 @@ import { Faqs } from './Faqs';
 import InLineWidgetCall from './InLineWidgetCall';
 import { Slider } from './slider';
 import { SliderDos } from './sliderdos';
-import {
-	NextButton,
-	PrevButton,
-	usePrevNextButtons
-  } from './EmblaCarouselArrowButtons'
-  import { DotButton, useDotButton } from './EmblaCarouselDotButton'
 
 
 function Main() {
