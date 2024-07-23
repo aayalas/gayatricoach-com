@@ -3,7 +3,7 @@ import { ThemeProvider } from "@material-tailwind/react";
 import { NextIntlClientProvider } from "next-intl";
 import {useRouter} from 'next/router';
 
-import {ThemeProvider as NextThemesProvider} from "next-themes";
+// import {ThemeProvider as NextThemesProvider} from "next-themes";
 import "../styles/globals.css";
 import "@/styles/embla.css"
 
@@ -18,9 +18,9 @@ return (
         timeZone="America"
         messages={pageProps.messages}
       >
-          <NextThemesProvider attribute="class" defaultTheme="light">
+          {/* <NextThemesProvider attribute="class" defaultTheme="light"> */}
             <Component {...pageProps} />
-          </NextThemesProvider>
+          {/* </NextThemesProvider> */}
          
       </NextIntlClientProvider>
     {/* </ThemeProvider> */}
