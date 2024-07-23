@@ -18,7 +18,7 @@ return (
         timeZone="America"
         messages={pageProps.messages}
       >
-          <NextThemesProvider attribute="class" defaultTheme="dark">
+          <NextThemesProvider attribute="class" defaultTheme="light">
             <Component {...pageProps} />
           </NextThemesProvider>
          

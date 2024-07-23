@@ -21,8 +21,17 @@
       },
       "about": {
         "title": "About",
-        "subtitle": "Gabriela Ayala, Therapist, Coach",
-        "p": "Gestalt therapist, family constellator. I provide support for awareness, self-realization, personal development, restoration of balance and well-being."
+        "subtitleA": "Gabriela Ayala",
+        "subtitleB": "Gestalt Therapist, Family Constellator, Coach.",
+        "p": "Providing support for awareness, self-realization, personal development, restoration of balance and well-being.",
+        "subtitle2": "Academic Training:",
+        "p2": "Master in Human Development and Behavior.",
+        "p3": "Gestalt Therapist.",
+        "p4": "Systemic - Quantic Constellation",
+        "p5": "Ontológical and Transpersonal Coach.",
+        "p6": "Biodecodification and Bioneuroemotion.",
+        "p7": "Biotypes.",
+        "p8": "Enneagrams of Personality NLP (Neuro-Linguistic Programming)."
       },
       "faqs": {
         "title": "Frequently asked questions",

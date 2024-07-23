@@ -134,7 +134,7 @@ function Navigation() {
     
             </Link> */}
             <InlineDropdown />
-            <ThemeSwitch /> 
+            {/* <ThemeSwitch />  */}
 
           </NavbarItem>
 				<NavbarItem className="hidden lg:flex">
