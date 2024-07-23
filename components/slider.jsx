@@ -14,7 +14,7 @@ export function Slider() {
   const t = useTranslations('Testi');
 
   const plugin = React.useRef(
-    Autoplay({ delay: 2000, stopOnInteraction: true })
+    Autoplay({ delay: 5000, stopOnInteraction: true })
   )
 
   return (
