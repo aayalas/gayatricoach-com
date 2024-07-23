@@ -6,6 +6,7 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import Main from "@/components/Main";
 import { siteConfig } from '@/config/site';
+import { ScrollToTop } from "@/components/ScrollToTop";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -28,6 +29,7 @@ export default function Home({title}) {
         <Navigation />
         <Main />
         <Footer />
+        <ScrollToTop />
       </main>
     </>
   );
