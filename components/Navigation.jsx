@@ -65,9 +65,9 @@ function Navigation() {
                     "data-[active=true]:text-primary data-[active=true]:font-medium"
                   )}
                   color="foreground"
-                  href="/#services"							
+                  href="/#about"							
                 >
-                  {t('services')}
+                  {t('about')}
                 </NextLink>
               </NavbarItem>
               <NavbarItem >
@@ -77,11 +77,11 @@ function Navigation() {
                     "data-[active=true]:text-primary data-[active=true]:font-medium"
                   )}
                   color="foreground"
-                  href="/#about"							
+                  href="/#services"							
                 >
-                  {t('about')}
+                  {t('services')}
                 </NextLink>
-              </NavbarItem>
+              </NavbarItem>              
               <NavbarItem >
                 <NextLink
                   className={clsx(

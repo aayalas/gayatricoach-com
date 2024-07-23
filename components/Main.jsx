@@ -29,6 +29,47 @@ function Main() {
           </div>
         </div>
       </section>
+	  <section id="about" className="">                
+				<div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16">
+					<div className="grid md:grid-cols-2 gap-4">
+						<div className="max-w-screen-xl px-4 py-8 mx-auto lg:px-6 sm:py-16 lg:py-24">
+							<img className="object-cover rounded-xl aspect-rectangle" src="/Gaby.jpg" alt=""/>
+						</div>                       
+						<div className="max-w-screen-xl px-4 py-8 mx-auto lg:px-6 sm:py-16 lg:py-24">
+							<div className="max-w-2xl mx-auto text-start">
+								<h2 className="text-3xl font-bold leading-tight tracking-tight text-gray-900 sm:text-4xl dark:text-white">
+									{t('links.about.title')}
+								</h2>
+								<p className="mt-4 text-2xl font-bold text-gray-900 sm:text-xl dark:text-white">
+									{t('links.about.subtitleA')}
+								</p>
+								<p className="mt-4 text-2xl font-light text-gray-900 sm:text-xl dark:text-white">
+									{t('links.about.subtitleB')}
+								</p>
+							</div>
+								<p className="mt-4 text-base font-light text-gray-900 sm:text-xl dark:text-white">
+									{t('links.about.p')}
+								</p>
+								<p className="mt-4 text-3xl font-bold text-gray-900 sm:text-xl dark:text-white">
+									{t('links.about.subtitle2')}
+								</p>
+								<div className="mt-4 text-base font-light text-gray-900 sm:text-xl dark:text-white">
+									{/* {t('links.about.p2')} */}
+									<ul>
+										<li>{t('links.about.p2')}</li>
+										<li>{t('links.about.p3')}</li>
+										<li>{t('links.about.p4')}</li>
+										<li>{t('links.about.p5')}</li>
+										<li>{t('links.about.p6')}</li>
+										<li>{t('links.about.p7')}</li>
+										<li>{t('links.about.p8')}</li>
+										<li>{t('links.about.p9')}</li>
+									</ul>
+								</div>
+						</div>
+					</div>
+				</div>
+	  </section>
       <section id="services" className="">
 				<div className="max-w-2xl mx-auto text-center py-16">						
 					<h2 className="text-3xl font-normal leading-tight tracking-tight text-gray-900 sm:text-4xl dark:text-white">
@@ -100,47 +141,6 @@ function Main() {
 								{t('links.services.pcard3')}
 							</p>
 						</div> */}
-					</div>
-				</div>
-	  </section>
-      <section id="about" className="">                
-				<div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16">
-					<div className="grid md:grid-cols-2 gap-4">
-						<div className="max-w-screen-xl px-4 py-8 mx-auto lg:px-6 sm:py-16 lg:py-24">
-							<img className="object-cover rounded-xl aspect-rectangle" src="/Gaby.jpg" alt=""/>
-						</div>                       
-						<div className="max-w-screen-xl px-4 py-8 mx-auto lg:px-6 sm:py-16 lg:py-24">
-							<div className="max-w-2xl mx-auto text-start">
-								<h2 className="text-3xl font-bold leading-tight tracking-tight text-gray-900 sm:text-4xl dark:text-white">
-									{t('links.about.title')}
-								</h2>
-								<p className="mt-4 text-2xl font-bold text-gray-900 sm:text-xl dark:text-white">
-									{t('links.about.subtitleA')}
-								</p>
-								<p className="mt-4 text-2xl font-light text-gray-900 sm:text-xl dark:text-white">
-									{t('links.about.subtitleB')}
-								</p>
-							</div>
-								<p className="mt-4 text-base font-light text-gray-900 sm:text-xl dark:text-white">
-									{t('links.about.p')}
-								</p>
-								<p className="mt-4 text-3xl font-bold text-gray-900 sm:text-xl dark:text-white">
-									{t('links.about.subtitle2')}
-								</p>
-								<div className="mt-4 text-base font-light text-gray-900 sm:text-xl dark:text-white">
-									{/* {t('links.about.p2')} */}
-									<ul>
-										<li>{t('links.about.p2')}</li>
-										<li>{t('links.about.p3')}</li>
-										<li>{t('links.about.p4')}</li>
-										<li>{t('links.about.p5')}</li>
-										<li>{t('links.about.p6')}</li>
-										<li>{t('links.about.p7')}</li>
-										<li>{t('links.about.p8')}</li>
-										<li>{t('links.about.p9')}</li>
-									</ul>
-								</div>
-						</div>
 					</div>
 				</div>
 	  </section>
