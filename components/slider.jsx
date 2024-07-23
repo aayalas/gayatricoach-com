@@ -54,7 +54,7 @@ export function Slider() {
                 <Card>
                   <CardContent className="flex flex-col aspect-rectangle items-center justify-center p-6">
                     {/* <span className="text-4xl font-semibold">{index + 1}</span> */}
-                    <p>"Me siento felíz de todo lo que sucedió en la constelación. Y del regalo que Dios me dio ese día. En total gratitud contigo amada Gaby. Estoy todavía impactada de lo que sucedió. La verdad no me esperaba nada de eso...."</p>
+                    <p>"{t('t3')}"</p>
                     <p className="font-bold">R.M.</p>
                   </CardContent>
                 </Card>
