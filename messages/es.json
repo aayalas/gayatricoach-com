@@ -9,21 +9,27 @@
     "links": {
       "services": {
         "title": "Servicios",
-        "subtitle": "Integra tus raices, reconociendo y expresando tu verdadero Ser.",
+        "subtitle": "Sesiones, Talleres, Pláticas, Clase Maestra, Programas.",
         "button1": "Hablemos",
         "button2": "Preguntas",
-        "tcard1": "Terapia Grupal",
+        "tcard1": "Sesiones Grupales",
         "pcard1": "Se pueden lograr cambios profundos en cada miembro de la familia, así como en la estructura familiar, cuando toda la familia participa en la terapia. Para fomentar conversaciones que creen un ambiente agradable e interacciones saludables en el futuro, trabajo con otras personas para comprender mejor las dinámicas, los patrones y las debilidades de las familias.",
-        "tcard2": "Terapia individual",
+        "tcard2": "Sesiones individuales",
         "pcard2": "Las sesiones individuales de terapia de salud mental (a veces también las llamamos asesoramiento sobre salud mental) son una oportunidad esencial para procesar problemas que tienden a aislarnos. Ya sea que se trate de un trastorno del estado de ánimo, una adicción, desafíos en las relaciones, un trauma o algún otro problema que le impida vivir su vida de manera plena, trabajaremos juntos para deshacernos de ello.",
-        "tcard3": "Terapia de parejas",
-        "pcard3": "Las personas en una relación buscan asesoramiento por diversas razones, desde luchas de poder y problemas de comunicación hasta trampas. Nos ocuparemos eficazmente de los problemas físicos y de confianza, los conflictos, los problemas financieros y cualquier otro efecto secundario que afecte su relación. Trabajaremos juntos para enseñarle cómo regular sus emociones y utilizar habilidades de comunicación saludables para resolver problemas pasados y actuales."        
+        "tcard3": "Talleres",
+        "pcard3": "",
+        "tcard4": "Pláticas",
+        "pcard4": "",
+        "tcard5": "Clase Maestra",
+        "pcard5": "",
+        "tcard6": "Programas",
+        "pcard6": ""       
       },
       "about": {
         "title": "Conóceme",
         "subtitleA": "Gabriela Ayala",
         "subtitleB": "Terapeuta Gestalt, Consteladora Familiar, Coach.",
-        "p": "Brindando acompanamiento para la toma de conciencia, la autorrealizacion, el desarrollo personal, el restablecimiento del equilibrio y el bienestar.",
+        "p": "Brindo acompanamiento para la toma de conciencia, autorrealizacion, auto cuidado, amor propio, el desarrollo personal, el restablecimiento del equilibrio y el bienestar emocional, mental, físico y espiritual.",
         "subtitle2": "Formación Académica:",
         "p2": "Maestría en Desarrollo y Comportamiento Humano.",
         "p3": "Terapeuta Gestalt.",
@@ -31,7 +37,8 @@
         "p5": "Coach Ontológico y Transpersonal.",
         "p6": "Biodescodificación y Bioneuroemoción.",
         "p7": "Biotipos.",
-        "p8": "Eneagramas de Personalidad PNL (Programacón Neuro Linguistica)."
+        "p8": "Eneagramas de Personalidad.",
+        "p9": "PNL (Programacón Neuro Linguistica)."
       },
       "faqs": {
         "title": "Preguntas frecuentes",
