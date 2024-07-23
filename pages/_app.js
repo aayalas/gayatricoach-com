@@ -12,7 +12,7 @@ export default function App({ Component, pageProps }) {
   
 return (
   <NextUIProvider>
-    <ThemeProvider>
+    {/* <ThemeProvider> */}
       <NextIntlClientProvider
         locale={router.locale}
         timeZone="America"
@@ -23,7 +23,7 @@ return (
           </NextThemesProvider>
          
       </NextIntlClientProvider>
-    </ThemeProvider>
+    {/* </ThemeProvider> */}
   </NextUIProvider>
  );
 }
