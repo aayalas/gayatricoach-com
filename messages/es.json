@@ -41,7 +41,7 @@
         "p9": "PNL (Programacón Neuro Linguistica)."
       },
       "faqs": {
-        "title": "Preguntas frecuentes",
+        "title": "Constelaciones",
         "subtitle": "",
         "p": ""
       },
@@ -61,7 +61,7 @@
     "home": "Inicio",
     "services": "Servicios",
     "about": "Conóceme",
-    "faqs": "Preguntas",
+    "faqs": "Constelaciones",
     "letstalk": "Hablemos",
     "blog": "Blog"
   },

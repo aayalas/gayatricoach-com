@@ -29,7 +29,7 @@ function Main() {
           </div>
         </div>
       </section>
-	  <section id="about" className="">                
+	  <section id="about" className="antialiased">                
 				<div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16">
 					<div className="grid md:grid-cols-2 gap-4">
 						<div className="max-w-screen-xl px-4 py-8 mx-auto lg:px-6 sm:py-16 lg:py-24">
@@ -70,7 +70,7 @@ function Main() {
 					</div>
 				</div>
 	  </section>
-      <section id="services" className="">
+      <section id="services" className="antialiased">
 				<div className="max-w-2xl mx-auto text-center py-16">						
 					<h2 className="text-3xl font-normal leading-tight tracking-tight text-gray-900 sm:text-4xl dark:text-white">
 						{t('links.services.title')}
