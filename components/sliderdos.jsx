@@ -53,7 +53,7 @@ export function SliderDos(props) {
                 </Card>
               </div>
             </CarouselItem>
-            {/* <CarouselItem>
+            <CarouselItem>
               <div className="">
                 <Card>
                   <CardContent className="flex aspect-rectangle items-center justify-center px-1 py-0">
@@ -66,7 +66,7 @@ export function SliderDos(props) {
                   </CardContent>
                 </Card>
               </div>
-            </CarouselItem> */}
+            </CarouselItem>
             {/* <CarouselItem>
               <div className="p-1">
                 <Card>

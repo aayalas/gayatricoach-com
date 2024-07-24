@@ -249,7 +249,10 @@ function Main() {
 					</h2>
 					<p className="max-w-2xl mt-4 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
                         {t('links.letstalk.subtitle')} 
-          </p>
+          			</p>
+					<p className="max-w-2xl mt-4 font-light text-gray-900 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
+                        {t('links.letstalk.p')} 
+          			</p>
 				</div>
 				<div className="py-2 px-4 mx-auto max-w-screen-xl">
 					<div className="grid md:grid-cols-1 gap-8">
