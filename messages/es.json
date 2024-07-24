@@ -9,7 +9,7 @@
     "links": {
       "services": {
         "title": "Servicios",
-        "subtitle": "Sesiones, Talleres, Pláticas, Clase Maestra, Programas.",
+        "subtitle": "Sesiones, Talleres, Pláticas, MasterClass, Programas.",
         "button1": "Hablemos",
         "button2": "Preguntas",
         "tcard1": "Sesiones Grupales",
@@ -20,7 +20,7 @@
         "pcard3": "",
         "tcard4": "Pláticas",
         "pcard4": "",
-        "tcard5": "Clase Maestra",
+        "tcard5": "MasterClass",
         "pcard5": "",
         "tcard6": "Programas",
         "pcard6": ""       
@@ -28,12 +28,12 @@
       "about": {
         "title": "Conóceme",
         "subtitleA": "Gabriela Ayala",
-        "subtitleB": "Terapeuta Gestalt, Consteladora Familiar, Coach.",
+        "subtitleB": "Terapeuta Gestalt, Consteladora Cuántica y Sistémica, Coach.",
         "p": "Brindo acompanamiento para la toma de conciencia, autorealizacion, autocuidado, amor propio, el desarrollo personal para el restablecimiento del equilibrio y el bienestar emocional, mental, físico y espiritual.",
         "subtitle2": "Formación Académica:",
         "p2": "Maestría en Desarrollo y Comportamiento Humano.",
         "p3": "Terapeuta Gestalt.",
-        "p4": "Consteladora Sistémica.",
+        "p4": "Consteladora Cuántica y Sistémica.",
         "p5": "Coach Ontológico y Transpersonal.",
         "p6": "Biodescodificación y Bioneuroemoción.",
         "p7": "Biotipos Medicina Unani.",

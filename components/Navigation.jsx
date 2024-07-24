@@ -9,7 +9,6 @@ import {useTranslations} from 'next-intl';
 import ThemeSwitch from "./theme-switch";
 import InlineDropdown from "./Dropdown";
 
-
 function Navigation() {
   const t = useTranslations('Navigation');
   return (
@@ -47,11 +46,8 @@ function Navigation() {
             {/* key={item.href} */}
               <NavbarItem >
                 <NextLink
-                  className={clsx(
-                    linkStyles({ color: "foreground" }),
-                    "data-[active=true]:text-primary data-[active=true]:font-medium"
-                  )}
-                  color="foreground"
+                  className="text-pink-400 font-bold data-[active=true]:text-pink-600 data-[active=true]:font-medium"
+                  color="text-pink-400"
                   href="/"
                 >
                   {/* {item.label} */}
@@ -60,11 +56,8 @@ function Navigation() {
               </NavbarItem>
               <NavbarItem >
                 <NextLink
-                  className={clsx(
-                    linkStyles({ color: "foreground" }),
-                    "data-[active=true]:text-primary data-[active=true]:font-medium"
-                  )}
-                  color="foreground"
+                  className="text-pink-400 font-bold data-[active=true]:text-pink-600 data-[active=true]:font-medium"
+                  color="text-pink-400"
                   href="/#about"							
                 >
                   {t('about')}
@@ -72,11 +65,8 @@ function Navigation() {
               </NavbarItem>
               <NavbarItem >
                 <NextLink
-                  className={clsx(
-                    linkStyles({ color: "foreground" }),
-                    "data-[active=true]:text-primary data-[active=true]:font-medium"
-                  )}
-                  color="foreground"
+                  className="text-pink-400 font-bold data-[active=true]:text-pink-600 data-[active=true]:font-medium font"
+                  color="text-pink-400"
                   href="/#services"							
                 >
                   {t('services')}
@@ -84,11 +74,8 @@ function Navigation() {
               </NavbarItem>              
               <NavbarItem >
                 <NextLink
-                  className={clsx(
-                    linkStyles({ color: "foreground" }),
-                    "data-[active=true]:text-primary data-[active=true]:font-medium"
-                  )}
-                  color="foreground"
+                  className="text-pink-400 font-bold data-[active=true]:text-pink-600 data-[active=true]:font-medium"
+                  color="text-pink-400"
                   href="/#faqs"							
                 >
                   {t('faqs')}
@@ -96,11 +83,8 @@ function Navigation() {
               </NavbarItem>
               <NavbarItem >
                 <NextLink
-                  className={clsx(
-                    linkStyles({ color: "foreground" }),
-                    "data-[active=true]:text-primary data-[active=true]:font-medium"
-                  )}
-                  color="foreground"
+                  className="text-pink-400 font-bold data-[active=true]:text-pink-600 data-[active=true]:font-medium"
+                  color="text-pink-400"
                   href="/#letstalk"							
                 >
                   {t('letstalk')}
