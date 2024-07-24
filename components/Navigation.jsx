@@ -144,7 +144,7 @@ function Navigation() {
 
 				  </Link> */}
             <InlineDropdown />
-        		<ThemeSwitch /> 
+        		{/* <ThemeSwitch />  */}
 
 			<NavbarMenuToggle />
       	</NavbarContent>
@@ -156,10 +156,7 @@ function Navigation() {
                 <NavbarMenuItem >
                   {/* key={`${item.href}-${index}`} */}
                   <Link
-                    className={clsx(
-                      linkStyles({ color: "foreground" }),
-                      "data-[active=true]:text-primary data-[active=true]:font-medium"
-                    )}
+                    className="text-pink-400 font-bold data-[active=true]:text-pink-600 data-[active=true]:font-medium"
                     // color={
                     // 	index === 2
                     // 		? "primary"
@@ -176,10 +173,7 @@ function Navigation() {
                 </NavbarMenuItem>
                 <NavbarMenuItem >
                   <Link
-                    className={clsx(
-                      linkStyles({ color: "foreground" }),
-                      "data-[active=true]:text-primary data-[active=true]:font-medium"
-                    )}
+                    className="text-pink-400 font-bold data-[active=true]:text-pink-600 data-[active=true]:font-medium"
                     size="lg"
                     href="/#services"
                   >
@@ -188,10 +182,7 @@ function Navigation() {
                 </NavbarMenuItem>
                 <NavbarMenuItem >
                   <Link
-                    className={clsx(
-                      linkStyles({ color: "foreground" }),
-                      "data-[active=true]:text-primary data-[active=true]:font-medium"
-                    )}
+                    className="text-pink-400 font-bold data-[active=true]:text-pink-600 data-[active=true]:font-medium"
                     size="lg"
                     href="/#about"
                   >
@@ -200,10 +191,7 @@ function Navigation() {
                 </NavbarMenuItem>
                 <NavbarMenuItem >
                   <Link
-                    className={clsx(
-                      linkStyles({ color: "foreground" }),
-                      "data-[active=true]:text-primary data-[active=true]:font-medium"
-                    )}
+                    className="text-pink-400 font-bold data-[active=true]:text-pink-600 data-[active=true]:font-medium"
                     size="lg"
                     href="/#faqs"
                   >
@@ -212,10 +200,7 @@ function Navigation() {
                 </NavbarMenuItem>
                 <NavbarMenuItem >
                   <Link
-                    className={clsx(
-                      linkStyles({ color: "foreground" }),
-                      "data-[active=true]:text-primary data-[active=true]:font-medium"
-                    )}
+                    className="text-pink-400 font-bold data-[active=true]:text-pink-600 data-[active=true]:font-medium"
                     size="lg"
                     href="/#letstalk"
                   >
