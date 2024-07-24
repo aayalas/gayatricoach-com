@@ -145,7 +145,7 @@ function Main() {
 				</div>
 	  </section>
       <section id="faqs" className="antialiased">
-				{/* <div className="max-w-screen-xl px-4 py-8 mx-auto lg:px-6 sm:py-16 lg:py-24">
+				<div className="max-w-screen-xl px-4 py-8 mx-auto lg:px-6 sm:py-16 lg:py-24">
 					<div className="max-w-2xl mx-auto text-center">
 						<h2 className="text-3xl font-normal leading-tight tracking-tight text-gray-900 sm:text-4xl dark:text-white">
 							{t('links.faqs.title')}
@@ -153,9 +153,8 @@ function Main() {
 						<p className="mt-4 text-base font-normal text-gray-500 sm:text-xl dark:text-gray-400">
 							{t('links.faqs.subtitle')}
 						</p>
-						<Faqs />
 					</div>
-				</div>   */}
+				</div>
 	  </section>
       <section id="success" className="antialiased"> 
 				<div className="max-w-screen-xl px-4 py-8 mx-auto lg:px-6 sm:py-16 lg:py-24">
