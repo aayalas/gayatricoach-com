@@ -46,7 +46,7 @@ export function SliderDos(props) {
                     <img
                       src={`slides/2.png?v=${index}`}
                       // src='slides/2.png'
-                      alt="image 1"
+                      alt="image 2"
                       className="h-full w-full object-cover rounded-[20px]"
                     />
                   </CardContent>
@@ -60,27 +60,27 @@ export function SliderDos(props) {
                     <img
                       src={`slides/3.png?v=${index}`}
                       // src='slides/2.png'
-                      alt="image 1"
+                      alt="image 3"
                       className="h-full w-full object-cover rounded-[20px]"
                     />
                   </CardContent>
                 </Card>
               </div>
             </CarouselItem>
-            {/* <CarouselItem>
+            <CarouselItem>
               <div className="p-1">
                 <Card>
                   <CardContent className="flex aspect-rectangle items-center justify-center p-6">
                     <img
                       src={`slides/4.png?v=${index}`}
                       // src='slides/2.png'
-                      alt="image 1"
+                      alt="image 4"
                       className="h-full w-full object-cover rounded-[20px]"
                     />
                   </CardContent>
                 </Card>
               </div>
-            </CarouselItem> */}
+            </CarouselItem>
             </>
         ))}
       </CarouselContent>
