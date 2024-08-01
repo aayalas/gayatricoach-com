@@ -8,11 +8,17 @@ import Image from "next/image";
 import {useTranslations} from 'next-intl';
 import ThemeSwitch from "./theme-switch";
 import InlineDropdown from "./Dropdown";
+import { AlertOnTop } from "./AlertOnTop";
 
 function Navigation() {
   const t = useTranslations('Navigation');
   return (
     <>
+    <div>
+      <nav>
+        <AlertOnTop />
+      </nav>
+    </div>
      <NextUINavbar maxWidth="xl" position="sticky">
         <NavbarContent className="basis-1/5 sm:basis-full">
           <NavbarBrand className="gap-3 max-w-fit">
@@ -222,7 +228,7 @@ function Navigation() {
               {/* ))} */}
             </div>
           </NavbarMenu>
-		  </NextUINavbar>        
+		  </NextUINavbar>  
     </>
   )
 }
