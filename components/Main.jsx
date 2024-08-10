@@ -85,7 +85,7 @@ function Main() {
 				</div>
 				<div className="py-4 px-2 mx-auto max-w-screen-xl lg:py-4">
 					<div className="grid md:grid-cols-2 gap-8">
-						<div className="bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg p-4 md:p-12 shadow-lg">
+						{/* <div className="bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg p-4 md:p-12 shadow-lg">
 							<h2 className="text-gray-900 dark:text-white text-3xl font-normal mb-2">
                 				{t('links.services.tcard1')}
               				</h2>
@@ -100,7 +100,7 @@ function Main() {
 							<p className="text-lg font-normal text-gray-500 dark:text-gray-400 mb-4">
 								{t('links.services.pcard2')}
 							</p>
-						</div>
+						</div> */}
 						{/* <div className="bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg p-4 md:p-12 shadow-lg">
 							<h2 className="text-gray-900 dark:text-white text-3xl font-normal mb-2">
                 				{t('links.services.tcard3')}
@@ -135,7 +135,7 @@ function Main() {
 						</div> */}
 						{/* <div className="bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg p-6 md:p-12 shadow-lg">
 							<h2 className="text-gray-900 dark:text-white text-3xl font-normal mb-2">
-                {t('links.services.tcard3')}
+                				{t('links.services.tcard3')}
 							</h2>
 							<p className="text-lg font-normal text-gray-500 dark:text-gray-400 mb-4">
 								{t('links.services.pcard3')}
@@ -162,6 +162,8 @@ function Main() {
               				</h2>
 							<p className="text-lg font-normal text-gray-500 dark:text-gray-400 mb-4">
 								{t('links.faqs.pcard1')}
+								<br/><br/>
+								{t('links.faqs.pcard1a')}
               				</p>
 							<p className="text-gray-900 dark:text-white text-2xl font-normal mb-2"> 
 							    {t('links.faqs.tcard2')}
@@ -174,6 +176,12 @@ function Main() {
 							</p>
 							<p className="text-lg font-normal text-gray-500 dark:text-gray-400 mb-4">
 							    {t('links.faqs.pcard3')}
+								<br/><br/>
+								{t('links.faqs.pcard3a')}
+								<br/><br/>
+								{t('links.faqs.pcard3b')}
+								<br/><br/>
+								{t('links.faqs.pcard3c')}
 							</p>
 							<p className="text-gray-900 dark:text-white text-2xl font-normal mb-2"> 
 							    {t('links.faqs.tcard4')}
@@ -186,39 +194,34 @@ function Main() {
 							</p>
 							<p className="text-lg font-normal text-gray-500 dark:text-gray-400 mb-4">
 							    {t('links.faqs.pcard5')}
-							</p>
-							<p className="text-lg font-normal text-gray-500 dark:text-gray-400 mb-4">
-							    {t('links.faqs.pcard5A')}
-							</p>
-							<p className="text-lg font-normal text-gray-500 dark:text-gray-400 mb-4">
-							    {t('links.faqs.pcard5B')}
-							</p>
-							<p className="text-lg font-normal text-gray-500 dark:text-gray-400 mb-4">
-							    {t('links.faqs.pcard5C')}
-							</p>
-							<p className="text-lg font-normal text-gray-500 dark:text-gray-400 mb-4">
-							    {t('links.faqs.pcard5D')}
-							</p>							
+							</p>						
 							<p className="text-gray-900 dark:text-white text-2xl font-normal mb-2"> 
 							    {t('links.faqs.tcard6')}
 							</p>
 							<p className="text-lg font-normal text-gray-500 dark:text-gray-400 mb-4">
 							    {t('links.faqs.pcard6')}
 							</p>
-							<p className="text-lg font-normal text-gray-500 dark:text-gray-400 mb-4">
-							    {t('links.faqs.pcard6B')}
-							</p>
-							<p className="text-lg font-normal text-gray-500 dark:text-gray-400 mb-4">
-							    {t('links.faqs.pcard6C')}
-							</p>
-							<p className="text-lg font-normal text-gray-500 dark:text-gray-400 mb-4">
-							    {t('links.faqs.pcard6D')}
-							</p>
 							<p className="text-gray-900 dark:text-white text-2xl font-normal mb-2"> 
 							    {t('links.faqs.tcard7')}
 							</p>
 							<p className="text-lg font-normal text-gray-500 dark:text-gray-400 mb-4">
 							    {t('links.faqs.pcard7')}
+								<br/>
+								{t('links.faqs.pcard7a')}
+								<br/>
+								{t('links.faqs.pcard7b')}
+								<br/>
+								{t('links.faqs.pcard7c')}
+								<br/>
+								{t('links.faqs.pcard7d')}
+								<br/>
+								{t('links.faqs.pcard7e')}
+								<br/>
+								{t('links.faqs.pcard7f')}
+								<br/>
+								{t('links.faqs.pcard7g')}
+								<br/>
+								{t('links.faqs.pcard7h')}
 							</p>														
 						</div>
 					</div>
