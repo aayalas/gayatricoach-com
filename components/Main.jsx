@@ -150,9 +150,9 @@ function Main() {
 						<h2 className="text-3xl font-normal leading-tight tracking-tight text-gray-900 sm:text-4xl dark:text-white">
 							{t('links.faqs.title')}
 						</h2>
-						<p className="mt-4 text-base font-normal text-gray-500 sm:text-xl dark:text-gray-400">
+						<h2 className="mt-4 text-base font-normal text-gray-500 sm:text-xl dark:text-gray-400">
 							{t('links.faqs.subtitle')}
-						</p>
+						</h2>
 					</div>
 					<div className="py-4 px-2 mx-auto max-w-screen-xl lg:py-4">
 					<div className="grid md:grid-cols-1 gap-8">
@@ -250,9 +250,12 @@ function Main() {
 					<h2 className="text-3xl font-normal leading-tight tracking-tight text-gray-900 sm:text-4xl dark:text-white">
 						{t('links.letstalk.title')}
 					</h2>
-					<p className="max-w-2xl mt-4 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
+					<h3 className="max-w-2xl mt-4 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
                         {t('links.letstalk.subtitle')} 
-          			</p>
+          			</h3>
+					<h3 className="max-w-2xl mt-4 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
+                        {t('links.letstalk.subtitle2')} 
+          			</h3>					
 					<p className="max-w-2xl mt-4 font-light text-gray-900 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
                         {t('links.letstalk.p')} 
           			</p>

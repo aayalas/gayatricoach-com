@@ -45,7 +45,7 @@
         "subtitle": "¿Cómo se desarrolla una Constelación?",
         "p": "",
         "tcard1": "01. Reserva una sesión:",
-        "pcard1": "Entra al calendario, agenda el día y la hora realiza el pago online. La sesión de constelación puede durar entre 45 minutos hasta 1 hora y 30 aproximadamente.",
+        "pcard1": "Entra al calendario abajo, agenda el día y la hora realiza el pago online. La sesión de constelación puede durar entre 45 minutos hasta 1 hora y 30 aproximadamente.",
         "pcard1a": "Contáctame vía WhatsApp, ahí te solicitare nombre y fecha de nacimiento. Si tienen un tema o síntoma específico que quieras tratar, aquí me lo puedes hacer saber.",
         "tcard2": "02. Definir el síntoma/tema:",
         "pcard2": "Si tiene claro el conflicto o síntoma a constelar, es muy bueno, en caso contrario, tendremos una conversación sobre tu presente y ahí aparecerá eso que te está bloqueado o doliendo.",
@@ -78,8 +78,9 @@
       },
       "letstalk": {
         "title": "Hablemos",
-        "subtitle": "Agenda tu Primer Sesión Aqui... y Comienza tu Viaje de Bienestar",
-        "p": "“Tu primera sesión GRATUITA (30 Min.) es un espacio para conocernos y explorar cómo puedo ayudarte a alcanzar tus objetivos de bienestar. Estoy aquí para escucharte y apoyarte en cada paso del camino.”"
+        "subtitle": "Primera sesión (30 Min.) GRATUITA.",
+        "subtitle2": "¡Reserva tu lugar ahora!",
+        "p": "¡Da el primer paso a tu trasformación desde el amor y desbloquea liberando todo tu potencial!"
       }             
     }
   },
