@@ -1,6 +1,7 @@
 import React from 'react'
 import { useTranslations } from 'next-intl';
 import NewsletterSignUpForm from './NewsletterSignUpForm';
+import { Heart } from 'lucide-react';
 
 function Footer() {
   const t = useTranslations('News');
@@ -178,12 +179,17 @@ function Footer() {
                 </div>
             </div>
         </footer>
-        <footer>
-
-        </footer>
-        <footer>
-
-        </footer>
+        <section>
+            <footer class="bg-gray-200 py-4">
+                <div class="container mx-auto p-4">
+                    <div class="flex justify-center items-center">
+                    <span class="text-gray-600">© 2024 {t("copyr1")} {" "} {t("copyr2")}</span> &nbsp; <Heart size={16} color='red'/>
+                        
+                    <a href="https://disvolvi.com" className="text-gray-600 hover:text-red-500"><span class="text-gray-600"> &nbsp;{t("copyr3")} {" "} Disvolvi.com</span></a> 
+                    </div>
+                </div>
+            </footer>
+        </section>
     </>
   )
 }
