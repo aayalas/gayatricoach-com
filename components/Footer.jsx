@@ -183,9 +183,9 @@ function Footer() {
             <footer className="bg-gray-200 py-4">
                 <div className="flex-cols-1 md:flex-cols-2">
                     <div className="flex justify-center items-center">
-                    <span className="text-gray-600">© 2024 {t("copyr1")} {" "} {t("copyr2")}</span> &nbsp; <Heart size={16} color='red'/>
+                    <span className="text-gray-600">© 2024 {" "} {t("copyr2")}</span>&nbsp;<Heart size={16} color='red'/><span className='text-gray-600'>&nbsp;{t("copyr3")}</span>
                         
-                    <a href="https://disvolvi.com" className="text-gray-600 hover:text-red-500"><span class="text-gray-600"> &nbsp;{t("copyr3")} {" "} Disvolvi.com</span></a> 
+                    <a href="https://disvolvi.com" className="font-semibold text-gray-600"><span className="text-gray-600">&nbsp;Disvolvi.com</span></a> 
                     </div>
                 </div>
             </footer>
